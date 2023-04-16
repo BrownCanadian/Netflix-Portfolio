@@ -9,10 +9,10 @@ function App() {
     <Navbar/>   
     <BigBoard/> 
    
-    <Stack title="React" className="overflow-x:hidden"/>
-    <Stack title="Python"  className="overflow:hidden"/>
-    <Stack title="Java"  className="overflow:hidden"/>
-    <Stack title="R"  className="overflow:hidden"/>
+    <Stack title="Placed Worked At" className=""/>
+    <Stack title="Projects"  className=""/>
+    <Stack title="Technical Skills"  className=""/>
+    <Stack title="Relevant Courses"  className=""/>
 
     </>);
 }

@@ -1,0 +1,357 @@
+{
+    "projects":[
+
+        {
+            "id":1,
+            "Name": "Black Jack",
+            "Desc":"A command-line blackjack game built with Python-3 that allows players to place bets, make decisions on their hands, and compete against the computer, using traditional blackjack rules and gameplay mechanics.",
+            "Features":[" Standard 52-card deck"," Ability to place bets and adjust wagers","Player can hit, stand, or double down", "Dealer follows traditional blackjack rules","Game ends when either the player or dealer busts, or the player chooses to stand and the dealer finishes their turn"],
+            "Languages":["Python"],
+            "Genre":["Feel Good","Basic"],
+            "Score":6
+        },
+        {
+            "id":2,
+            "Name": "Netflix Recap - Analyzing Your Watch History",
+            "Desc":"Netflix Recap is a data analysis project designed to help you better understand your viewing habits on the popular streaming platform. By analyzing your Netflix watch history, the project provides valuable insights such as your most watched series, your most watched genre, and how much total time you have spent watching Netflix to date.",
+            "Features":[" Data analysis of your Netflix watch history to extract key insights",
+            "Display of your most watched series and genre, with customizable time periods (e.g. last month, last year, all-time)",
+            "Calculation of the total amount of time you have spent watching Netflix to date", 
+            "Help you better understand your viewing habits"],
+            "Languages":["Python,MatPlotLib"],
+            "Genre":["Data Analysis"],
+            "Score":9
+        },
+        {
+            "id":3,
+            "Name": "Sorting Visualizer",
+            "Desc":"The Sorting Visualizer is a Python project that visualizes various sorting algorithms, providing a dynamic way to better understand how these algorithms work. The project provides a user interface to select and visualize different sorting algorithms such as bubble sort, quick sort, and merge sort, and demonstrates how the algorithms sort the elements of an array in real-time",
+            "Features":["Selection of different sorting algorithms for visualization, including bubble sort, quick sort, and merge sort ",
+            "Customizable array size and speed of visualization",
+            "Real-time visualization of the sorting algorithm as it sorts the array elements", 
+            "Dynamic color-coded visualization to help better understand the algorithm's operation"],
+            "Languages":["Python, Numpy, PyGame"],
+            "Genre":["Data Visualization"],
+            "Score":9
+        },
+        {
+            "id":4,
+            "Name": "Top Crypto Finder",
+            "Desc":"The Top Crypto Finder is a Python project that uses web scraping techniques to find and display the top 10 cryptocurrencies in the market. The project pulls data from various cryptocurrency exchange websites, and displays key information such as the current price, market capitalization",
+            "Features":["Web scraping of data from multiple cryptocurrency exchange websites to determine the top 10 cryptocurrencies",
+            "Ability to sort the coins based on various criteria, such as price, market capitalization, or trading volume"
+            ],
+            "Languages":["BeautifulSoup","Python"],
+            "Genre":["Web Scrapping","Automation"],
+            "Score":7
+        },
+        {
+            "id":5,
+            "Name": "PassWord Checker",
+            "Desc":"The Password Checker is a Python project that checks the security of passwords by determining whether they have ever been a part of a data breach.",
+            "Features":["Checks if the password has ever been a part of a data breach by comparing it against known lists of compromised passwords",
+            "Provides information on the severity and frequency of past data breaches, and whether the password has been found in any of them",
+            "Option to generate a random, secure password that is unlikely to be compromised"
+            ],
+            "Languages":["Python"],
+            "Genre":["API","Requests"],
+            "Score":5
+        },
+        {
+            "id":6,
+            "Name": "TypoSpeedChecker",
+            "Desc":"The Typing Speed Tester is a Python project that measures your typing speed by recording the number of words you can type in a minute. The project provides a selection of different texts to type, ranging from easy to difficult, and displays the results of each test, including the number of words typed, the time taken, and the words per minute (WPM) score.",
+            "Features":["Records the number of words typed, the time taken, and the WPM score",
+            "Option to practice and improve your typing speed", 
+            "User-friendly interface for entering and displaying results"],
+            "Languages":["Python"],
+            "Genre":["Genre"],
+            "Score":5
+        },
+        {
+            "id":7,
+            "Name": "Clusters",
+            "Desc":"Clusters is a web socialzing app created with Firebase, React JS, CSS, and Bootstrap that connects university students living on campus. The app includes a chat room with options for inter-floor or inter-building conversations, short video sharing similar to TikTok, an events page for hosting events, and a Q&A forum.",
+            "Features":["Chat room with options for inter-floor or inter-building conversations",
+            "Short video sharing feature similar to TikTok",
+            "Events page for hosting events and keeping track of attendees", 
+            "Q&A forum for asking and answering questions related to campus life"],
+            "Languages":["Reactjs","Firebase","CSS"],
+            "Genre":["WebApp","Socialzing platfor"],
+            "Score":9
+        },
+        {
+            "id":8,
+            "Name": "LongDistanceRelationshipRoom",
+            "Desc":" Long Distance Relationship Helper is a web-based application designed to help couples in long distance relationships stay connected and have fun together. The app features a private chat system for just the two of you, a random romantic gif generator, a movie suggestion tool, and a tracker of the days you've been in a relationship. Additionally, the app includes a random date idea generator to help spark new ideas for virtual dates.",
+            "Features":["Private chat system for just you and your partner",
+            "Random romantic gif generator to send to your partner",
+            "Random movie generator to suggest a movie to watch together", 
+            "Tracker of the days you've been in a relationship"],
+            "Languages":["HTML,CSS,JS"],
+            "Genre":["Romance,Firebasew"],
+            "Score":7
+        },
+        {
+            "id":9,
+            "Name": "Crypto Tracker is a web application that allows users to track the performance of their favorite cryptocurrencies. Users can create an account and select up to three coins that they want to monitor. The application uses chart.js to display historical price data for the selected coins, allowing users to make informed decisions about buying, selling, or holding their investments.",
+            "Desc":"",
+            "Features":["User authentication and password recovery using Firebase Authentication",
+            "Display of historical price data using chart.js",
+            "Ability to select and track up to three cryptocurrencies", 
+            "Real-time display of current price and percentage change for selected coins"],
+            "Languages":["JavaScript,HTML,CSS"],
+            "Genre":["FireBase, APIxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"],
+            "Score":6
+        },
+        {
+            "id":10,
+            "Name": "Dinosaur Google Game Player",
+            "Desc":"Dinosaur Google Game Auto-Player is an image detection program built with Python that enables the dinosaur to run indefinitely in the popular offline Google Chrome game. The program uses the PIL module to detect obstacles and the PYTAUTOGUI module to automate key controls to make the dinosaur jump or duck to avoid obstacles.",
+            "Features":["Automatically plays the Dinosaur Google Game indefinitely",
+            "Uses image detection to identify obstacles and react accordingly",
+            "Utilizes the PYTAUTOGUI module to automate key controls for the dinosaur to jump or duck"
+                ],
+            "Languages":["Python, PIL, PYTAUTOGUI"],
+            "Genre":["Automation","PIL"],
+            "Score":6
+        },
+        {
+            "id":11,
+            "Name": "HireLink: A Job Portal",
+            "Desc":"The React Job Portal is a web-based platform designed specifically for recruiters to connect with job seekers. The portal allows recruiters to post job listings, filter and search resumes, and communicate with potential candidates through a messaging system. The platform is built using React, TypeScript, and Tailwind CSS, which provide a seamless user experience and intuitive interface for recruiters.",
+            "Features":["Recruiters can sign up and create a profile to post job listings",
+            "Job seekers can create profiles and upload resumes to be viewed by recruiters",
+            "Advanced search features allow recruiters to search for candidates by location, experience, and skills", 
+            "Responsive design for seamless viewing on desktop and mobile devices",
+            "Create candidates, have job postings and apply for multiple candidates"],
+            "Languages":["Typescript","ReactJs","Tailwind"],
+            "Genre":["Webapp","Firebase"],
+            "Score":9
+        }
+
+    ],
+    "TechnicalSkills":{
+        "Python":{
+                "img":"",
+                "desc":"I like Python because it allows me to quickly and easily write code to solve complex problems. Additionally, Python has a large and active community that provides resources and support, making it a great language for both beginners and experienced programmers.",
+                "Features":[
+                    "Python has a large standard library with many built-in modules and functions, making it easy to perform common programming tasks.",
+                    "Python is widely used in scientific computing, data analysis, and machine learning, and has a large and supportive community.",
+                    "Python has a clear and concise syntax, making it easy to read and write code.",
+                    "Python is an interpreted language, meaning that you can write and execute code without needing to compile it first."
+                ],
+                "Score":9
+        },
+        "PANDAS":{
+            "img":"",
+            "desc":"I like Pandas because it is a powerful and user-friendly tool for working with structured data in Python. It provides efficient and flexible data structures, as well as a wide range of functions for data manipulation, cleaning, and analysis. With Pandas, I can quickly and easily perform complex data operations, making it an essential library for data science and analytics.",
+            "Features":[
+                "DataFrame and Series data structures, which allow for easy manipulation of tabular and time-series data.",
+                "Built-in functions for handling missing data, merging and joining data sets, and reshaping data.",
+                "Powerful grouping and aggregation functions for summarizing and analyzing data."
+            ]
+        },
+        "Tableau": {
+            "img": "",
+            "desc": "I like Tableau because it is a powerful data visualization tool that enables users to create interactive and visually appealing dashboards and reports. It has a wide range of data connectors, making it easy to connect to various data sources, and provides a drag-and-drop interface for creating charts and graphs.",
+            "Features": [
+                "Interactive and visually appealing data visualization capabilities.",
+                "Easy-to-use drag-and-drop interface for creating charts and graphs.",
+                "Wide range of data connectors for connecting to various data sources."
+            ],
+            "Score": 8
+        },
+        "MATLAB": {
+            "img": "",
+            "desc": "I like MATLAB because it is a powerful and widely-used tool for numerical computing and data analysis. It provides a wide range of functions and tools for working with matrices, plotting data, and analyzing complex systems. Additionally, MATLAB has a large and active community that provides resources and support, making it a great tool for both academic and industrial use.",
+            "Features": [
+                "Numerical computing capabilities for working with matrices and data.",
+                "Powerful tools for data visualization and analysis.",
+                "Large and supportive community of users."
+            ],
+            "Score": 7
+        },
+        "HTML+CSS": {
+            "img": "",
+            "desc": "I like HTML and CSS because they are the fundamental building blocks of the web. HTML provides the structure and content of web pages, while CSS provides the styling and visual design. Together, they enable web developers to create visually appealing and interactive websites that are accessible to users across a wide range of devices.",
+            "Features": [
+                "HTML provides the structure and content of web pages.",
+                "CSS provides the styling and visual design of web pages.",
+                "Enables developers to create visually appealing and interactive websites."
+            ],
+            "Score": 8
+        },
+        "JavaScript": {
+            "img": "",
+            "desc": "I like JavaScript because it is a versatile language that allows me to build interactive web applications and add functionality to websites. It is also widely used in server-side web development and can be used for desktop and mobile app development as well. With JavaScript, I can write code that runs directly in the browser, making it easy to create dynamic and responsive user interfaces.",
+            "Features": [
+                "JavaScript is a scripting language that can be used in both the client-side and server-side of web development.",
+                "It is the language of the web and is supported by all major browsers.",
+                "JavaScript is a high-level language with a simple and easy-to-learn syntax.",
+                "It has a wide range of libraries and frameworks, such as React and Angular, that make it easy to build complex web applications.",
+                "JavaScript supports asynchronous programming, which allows for more efficient and responsive web applications."
+                
+            ],
+            "Score": 8
+        },
+        "Java": {
+            "img": "",
+            "desc": "I like Java because it is a popular and powerful programming language that can be used to develop a wide range of applications, including desktop, mobile, and web applications. It is known for its portability, security, and reliability.",
+            "Features": ["Java is an object-oriented language with a strong type system that makes it easy to write and maintain complex code.",        "It is platform-independent, meaning that code written on one platform can be run on any other platform that supports Java.",
+            "Java is used extensively in enterprise applications, such as banking, insurance, and healthcare, due to its scalability, security, and reliability."
+          ],
+            "Score": 7
+        },
+        "React": {
+            "img": "",
+            "desc": "I like React because it is a powerful and flexible JavaScript library that allows me to build complex and interactive user interfaces with ease. It follows a component-based architecture that makes it easy to reuse code and separate concerns, leading to more maintainable and scalable code. With React, I can write reusable UI components that can be shared across different applications, making development faster and more efficient.",
+            "Features": [
+                "React uses a virtual DOM, which makes it fast and efficient for rendering large and complex UIs.",
+                "It follows a declarative programming paradigm, which makes it easier to reason about and debug code.",
+                "React provides a wide range of lifecycle methods and hooks that allow for more granular control over component behavior.",
+                "It has a vast ecosystem of third-party libraries and tools, such as Redux and Next.js, that make development faster and more efficient.",
+                "React is used by many large companies, such as Facebook and Airbnb, and has a large and active community that provides resources, support, and updates to the library.",
+                "It is highly flexible and can be used with other technologies, such as server-side rendering and native mobile development, using tools like React Native."
+            ],
+            "Score": 9
+        
+        },
+        "Git/GitHub": {
+            "img": "",
+            "desc": "I like Git and GitHub because they are powerful and widely used tools for version control, collaboration, and project management. Git is a distributed version control system that allows me to easily track changes to my code and collaborate with others. GitHub is a web-based platform that provides hosting for Git repositories, as well as a wide range of features for project management, code review, and collaboration.",
+            "Features": [
+                "Distributed version control system with support for branching, merging, and versioning.",
+                "Collaboration and project management features, such as pull requests, issues, and milestones.",
+                "Web-based platform for hosting repositories, with tools for code review, continuous integration, and deployment." 
+            ],
+            "Score": 8
+        },
+        "JIRA/CONFLUENCE": {
+            "img": "",
+            "desc": "I like JIRA and Confluence because they are powerful and versatile tools that allow me to manage projects, collaborate with team members, and track progress in a streamlined and efficient way. JIRA is a project management tool that allows me to create and track tasks, issues, and bugs in a highly customizable way. Confluence, on the other hand, is a knowledge management tool that allows me to create and organize documentation, meeting notes, and other important information in a central location that can be easily accessed by team members.",
+            "Features": [
+                "JIRA provides a highly customizable workflow that can be tailored to the specific needs of a project or team.",
+                "JIRA allows for easy collaboration between team members, with features such as commenting, tagging, and notifications.",
+                "Confluence allows for easy creation and organization of documentation, with features such as templates, macros, and versioning.",
+                "Confluence provides a robust search function that allows team members to quickly find the information they need.",
+                "JIRA and Confluence can be easily integrated with other tools and services, such as GitHub and Slack, through plugins and APIs.",
+                "Both JIRA and Confluence are widely used in the software development industry and have large and active communities that provide resources and support."
+            ],
+            "Score": 8
+        },
+        "R Programming": {
+            "img": "",
+            "desc": "I like R programming because it is a powerful and versatile language for statistical computing, data analysis, and visualization. R has a wide range of built-in functions and packages that allow me to perform complex statistical analyses and create informative visualizations with ease. With R, I can also easily manipulate and clean data, making it an essential tool for data science and research.",
+            "Features": [
+                "A wide range of built-in functions and packages for statistical computing, data analysis, and visualization.",
+                
+                "R allows for easy manipulation and cleaning of data, with functions such as subsetting, filtering, and reshaping.",
+                "R provides powerful graphics and visualization capabilities, with packages such as ggplot2 and lattice.",
+                
+                "R is widely used in academic research and industry, particularly in the fields of statistics, data science, and machine learning."
+            ],
+            "Score": 6
+        },
+        "Postman API": {
+            "img": "",
+            "desc": "I like Postman API because it is a powerful and user-friendly tool for testing and documenting APIs. With Postman, I can easily create and manage API requests, as well as automate testing and generate documentation. Additionally, Postman has a large and supportive community, with a wide range of resources and integrations.",
+            "Features": [
+                "Powerful and flexible API request builder, with support for various HTTP methods, parameters, and authentication methods.",
+                "Automated testing capabilities, including test scripts, assertions, and collection runners.",
+                "Documentation generation tools, including automatic documentation based on API requests and custom templates."
+            ],
+            "Score": 6
+        }
+
+    },
+    "Work":{
+        "Trulioo":{
+            "start": "Jan 2023",
+            "end":"Currently Working",
+            "type":"Internship",
+            "role":"Junior Quality Assurance Intern ",
+            "desc":["Collaborate with cross-functional teams to develop and implement test plans, test cases, and test scripts for various web and mobile applications.",
+            "Utilize JSON and Postman to create and execute test cases, verify expected results, and report issues in a timely manner.",
+            "Utilize company-specific software and platforms such as JIRA, TestRail, CI/CD to track defects, document test results, and automate testing processes",
+            "Create and maintain test data sets, test environments, and test scenarios to support testing efforts.",
+            "Collaborate with the QA team to develop and maintain a comprehensive test suite and ensure that the product is thoroughly tested before release",
+            "Work closely with developers and product owners to ensure that defects are identified, tracked, and resolved in a timely manner."
+        ]
+        },
+        "University Of Victoria":{
+            "start":"May 2022",
+            "end":"Aug 2022",
+            "type":"Internship",
+            "role":"Virtual Reality Research Intern ",
+            "desc":[
+                "Manage Creating an immersive environment for people so that they can feel and visualize different aspects of storytelling via VR",
+                "Working in a 3d workspace with hands-on experience with the development of an upcoming story-based project",
+                "Help solve issues and troubleshoot various hardware and software problems.",
+                "Recording and storing live movement onto a 3d figure"
+            ]
+        },
+        "University of Victoria":{
+            "start":"May 2022",
+            "end":"Aug 2022",
+            "type":"Internship",
+            "role":"Word Press Developer",
+            "desc":[
+                "Managed to crack various rounds of interview to secure the on-roll part time job in University of Victoria, with the strong knowledge of academics along with interpersonal & out of box thinking solutions.",
+                "Interface in delivering quality commercial websites meeting the coding standards & cross browser compatibilities. I do write intermediate testing reports indicating the status of testing to decide corrective actions and interventions. ",
+                "Achieved success with creating and updating re-usable code libraries to streamline the Word Press development cycle. I have hands on experience to create & update the codes.",
+                "Recording and storing live movement onto a 3d figure"
+            ]
+        }
+    },
+    "Courses":{
+        "CSC-226":{
+            "name":"Datastructures and Algorithms - 2 ",
+            "desc": " Advanced techniques for design, analysis, and implementation of algorithms and data structures.Algorithmic design paradigms: greedy, divide-and-conquer, dynamic programming, randomization.Advanced Analysis techniques: amortization and expected running time.Advanced data structures: random hash families, disjoint sets.Advanced graph algorithms: network flow, connectivity, minimum spanning trees, shortest paths. Mathematical tools: graphs and digraphs, graph properties, planar graphs, networks.String search. Data compression "
+        },
+        "CSC-230":{
+            "name":"Introduction to Computer Architecture",
+            "desc":
+                "the design of processors,the structure and operation of memory and virtual memory, cache, storage,pipelining + system integration + peripherals.Execution of software via assembly language"
+            
+        },
+        "SENG-265":{
+            "name":"",
+            "desc":"Systematic methods for designing, coding, testing and documenting medium-sized programs. Tools and techniques to promote programming productivity and software quality. Topics include specifications, code review and inspection techniques, testing and debugging methods and tools, file system navigation, scripting languages, software tools, environments, instrumenting and profiling and the fundamentals of software configuration management."
+        },
+        "MATH-211":{
+            "name":"Matrix Algebra",
+            "desc":"Euclidean vector spaces; systems of linear equations, solution of linear systems by Gaussian elimination, matrices and matrix algebra; brief introduction to abstract vector space; determinants; eigenvectors; orthogonality and applications."
+        },
+        "STAT-260":{
+            "name":"Introduction to Probability and Statistics",
+            "desc":"Descriptive statistics; elementary probability theory; random variables, discrete and continuous probability distributions, expectation, joint, marginal and conditional distributions; linear functions of random variables; random sampling and sampling distributions; point and interval estimation; classical hypothesis testing and significance testing. The mathematical foundations of statistical inference are introduced and illustrated with examples from a variety of disciplines."
+        },
+        "CSC-130":{
+            "name":"World Wide Web and Mobile Applications",
+            "desc":"An introduction to the Internet, the World Wide Web (WWW) and mobile communications technologies. Topics include: HTML; web-page design tools; development of simple mobile applications. Additional topics selected from: location-aware e-commerce; multimedia chat services; mobile social networking; software development for smartphones and tablets. Emphasis is on relating Internet technologies to the role they play in enabling mobile computing."
+        },
+        "MATH-202":{
+            "name":"Intermediate Calculus for CSC",
+            "desc":"Vectors, curves, and surfaces in space; partial differentiation; directional derivatives and the gradient vector; Taylor's theorem for a function of two variables; introduction to differential equations."
+        },
+        "CSC-115":{
+            "name":"Fundamental Programing:II - JAVA",
+            "desc":"Techniques, methods, and tools for systematic development and maintenance of software systems and documentation; basic algorithms and data structures; and fundamental concepts of object-oriented programming. Topics include control and data abstraction, modularization, abstract data types, layers of abstraction, information hiding, separation of concerns, type checking, program design, separate compilation, software libraries, techniques for the development of high-quality software components, program understanding."
+
+        },
+        "CSC-110":{
+            "name":"Fundamentals of Programming I",
+            "desc":"Introduction to designing, implementing, and understanding computer programs using an object-oriented programming language. Topics include an introduction to computing and problem solving, selection and iteration, arrays and collections, objects and classes, top-down design and incremental development."
+        },
+    "MATH-122":{
+        "name":"Discrete Math - Logic and Foundations",
+        "desc":"Logic and quantifiers, basic set theory, mathematical induction and recursive definitions, divide and conquer recurrence relations, properties of integers, counting, functions and relations, countable and uncountable sets, asymptotic notation"   
+    },
+    "MATH-101":{
+        "name":"Calculus II",
+        "desc":"Volumes; arc length and surface area; techniques of integration with applications; polar coordinates and area; Taylor's formula; improper integrals; series and tests for convergence; power series and Taylor series; complex numbers."
+    }
+    },
+    "About":{}
+}
