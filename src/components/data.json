@@ -3,6 +3,7 @@
 
         {
             "id":1,
+            "img":"https://i.imgur.com/46KGroU.png",
             "Name": "Black Jack",
             "Desc":"A command-line blackjack game built with Python-3 that allows players to place bets, make decisions on their hands, and compete against the computer, using traditional blackjack rules and gameplay mechanics.",
             "Features":[" Standard 52-card deck"," Ability to place bets and adjust wagers","Player can hit, stand, or double down", "Dealer follows traditional blackjack rules","Game ends when either the player or dealer busts, or the player chooses to stand and the dealer finishes their turn"],
@@ -12,6 +13,7 @@
         },
         {
             "id":2,
+            "img":"https://i.imgur.com/oCSK4Jg.png",
             "Name": "Netflix Recap - Analyzing Your Watch History",
             "Desc":"Netflix Recap is a data analysis project designed to help you better understand your viewing habits on the popular streaming platform. By analyzing your Netflix watch history, the project provides valuable insights such as your most watched series, your most watched genre, and how much total time you have spent watching Netflix to date.",
             "Features":[" Data analysis of your Netflix watch history to extract key insights",
@@ -24,6 +26,7 @@
         },
         {
             "id":3,
+            "img":"https://i.imgur.com/dxmHJNd.png",
             "Name": "Sorting Visualizer",
             "Desc":"The Sorting Visualizer is a Python project that visualizes various sorting algorithms, providing a dynamic way to better understand how these algorithms work. The project provides a user interface to select and visualize different sorting algorithms such as bubble sort, quick sort, and merge sort, and demonstrates how the algorithms sort the elements of an array in real-time",
             "Features":["Selection of different sorting algorithms for visualization, including bubble sort, quick sort, and merge sort ",
@@ -36,6 +39,7 @@
         },
         {
             "id":4,
+            "img":"https://i.imgur.com/h7iJdpQ.png",
             "Name": "Top Crypto Finder",
             "Desc":"The Top Crypto Finder is a Python project that uses web scraping techniques to find and display the top 10 cryptocurrencies in the market. The project pulls data from various cryptocurrency exchange websites, and displays key information such as the current price, market capitalization",
             "Features":["Web scraping of data from multiple cryptocurrency exchange websites to determine the top 10 cryptocurrencies",
@@ -47,7 +51,8 @@
         },
         {
             "id":5,
-            "Name": "PassWord Checker",
+            "img":"https://i.imgur.com/qdXuph1.png",
+            "Name": "Password Checker",
             "Desc":"The Password Checker is a Python project that checks the security of passwords by determining whether they have ever been a part of a data breach.",
             "Features":["Checks if the password has ever been a part of a data breach by comparing it against known lists of compromised passwords",
             "Provides information on the severity and frequency of past data breaches, and whether the password has been found in any of them",
@@ -59,6 +64,7 @@
         },
         {
             "id":6,
+            "img":"https://i.imgur.com/5id04v0.png",
             "Name": "TypoSpeedChecker",
             "Desc":"The Typing Speed Tester is a Python project that measures your typing speed by recording the number of words you can type in a minute. The project provides a selection of different texts to type, ranging from easy to difficult, and displays the results of each test, including the number of words typed, the time taken, and the words per minute (WPM) score.",
             "Features":["Records the number of words typed, the time taken, and the WPM score",
@@ -70,6 +76,7 @@
         },
         {
             "id":7,
+            "img":"https://i.imgur.com/ZIGgFtB.png",
             "Name": "Clusters",
             "Desc":"Clusters is a web socialzing app created with Firebase, React JS, CSS, and Bootstrap that connects university students living on campus. The app includes a chat room with options for inter-floor or inter-building conversations, short video sharing similar to TikTok, an events page for hosting events, and a Q&A forum.",
             "Features":["Chat room with options for inter-floor or inter-building conversations",
@@ -82,7 +89,8 @@
         },
         {
             "id":8,
-            "Name": "LongDistanceRelationshipRoom",
+            "img":"https://i.imgur.com/v2f0zJu.png",
+            "Name": "LongDistanceRoom",
             "Desc":" Long Distance Relationship Helper is a web-based application designed to help couples in long distance relationships stay connected and have fun together. The app features a private chat system for just the two of you, a random romantic gif generator, a movie suggestion tool, and a tracker of the days you've been in a relationship. Additionally, the app includes a random date idea generator to help spark new ideas for virtual dates.",
             "Features":["Private chat system for just you and your partner",
             "Random romantic gif generator to send to your partner",
@@ -94,8 +102,9 @@
         },
         {
             "id":9,
-            "Name": "Crypto Tracker is a web application that allows users to track the performance of their favorite cryptocurrencies. Users can create an account and select up to three coins that they want to monitor. The application uses chart.js to display historical price data for the selected coins, allowing users to make informed decisions about buying, selling, or holding their investments.",
-            "Desc":"",
+            "img":"https://i.imgur.com/uadxHXP.png",
+            "Name": "Crypto Tracker",
+            "Desc":"Crypto Tracker is a web application that allows users to track the performance of their favorite cryptocurrencies. Users can create an account and select up to three coins that they want to monitor. The application uses chart.js to display historical price data for the selected coins, allowing users to make informed decisions about buying, selling, or holding their investments.",
             "Features":["User authentication and password recovery using Firebase Authentication",
             "Display of historical price data using chart.js",
             "Ability to select and track up to three cryptocurrencies", 
@@ -106,6 +115,7 @@
         },
         {
             "id":10,
+            "img":"https://i.imgur.com/S19Cmh6.png",
             "Name": "Dinosaur Google Game Player",
             "Desc":"Dinosaur Google Game Auto-Player is an image detection program built with Python that enables the dinosaur to run indefinitely in the popular offline Google Chrome game. The program uses the PIL module to detect obstacles and the PYTAUTOGUI module to automate key controls to make the dinosaur jump or duck to avoid obstacles.",
             "Features":["Automatically plays the Dinosaur Google Game indefinitely",
@@ -118,6 +128,7 @@
         },
         {
             "id":11,
+            "img":"https://i.imgur.com/izLIoVL.png",
             "Name": "HireLink: A Job Portal",
             "Desc":"The React Job Portal is a web-based platform designed specifically for recruiters to connect with job seekers. The portal allows recruiters to post job listings, filter and search resumes, and communicate with potential candidates through a messaging system. The platform is built using React, TypeScript, and Tailwind CSS, which provide a seamless user experience and intuitive interface for recruiters.",
             "Features":["Recruiters can sign up and create a profile to post job listings",
@@ -133,7 +144,7 @@
     ],
     "TechnicalSkills":{
         "Python":{
-                "img":"",
+                "img":"https://i.imgur.com/6CD73oc.png",
                 "desc":"I like Python because it allows me to quickly and easily write code to solve complex problems. Additionally, Python has a large and active community that provides resources and support, making it a great language for both beginners and experienced programmers.",
                 "Features":[
                     "Python has a large standard library with many built-in modules and functions, making it easy to perform common programming tasks.",
@@ -144,7 +155,7 @@
                 "Score":9
         },
         "PANDAS":{
-            "img":"",
+            "img":"https://i.imgur.com/r4aQzCC.png",
             "desc":"I like Pandas because it is a powerful and user-friendly tool for working with structured data in Python. It provides efficient and flexible data structures, as well as a wide range of functions for data manipulation, cleaning, and analysis. With Pandas, I can quickly and easily perform complex data operations, making it an essential library for data science and analytics.",
             "Features":[
                 "DataFrame and Series data structures, which allow for easy manipulation of tabular and time-series data.",
@@ -153,7 +164,7 @@
             ]
         },
         "Tableau": {
-            "img": "",
+            "img": "https://i.imgur.com/bkzVRy0.png",
             "desc": "I like Tableau because it is a powerful data visualization tool that enables users to create interactive and visually appealing dashboards and reports. It has a wide range of data connectors, making it easy to connect to various data sources, and provides a drag-and-drop interface for creating charts and graphs.",
             "Features": [
                 "Interactive and visually appealing data visualization capabilities.",
@@ -163,7 +174,7 @@
             "Score": 8
         },
         "MATLAB": {
-            "img": "",
+            "img": "https://i.imgur.com/XM8Wwok.png",
             "desc": "I like MATLAB because it is a powerful and widely-used tool for numerical computing and data analysis. It provides a wide range of functions and tools for working with matrices, plotting data, and analyzing complex systems. Additionally, MATLAB has a large and active community that provides resources and support, making it a great tool for both academic and industrial use.",
             "Features": [
                 "Numerical computing capabilities for working with matrices and data.",
@@ -173,7 +184,7 @@
             "Score": 7
         },
         "HTML+CSS": {
-            "img": "",
+            "img": "https://i.imgur.com/MTAHBsI.png",
             "desc": "I like HTML and CSS because they are the fundamental building blocks of the web. HTML provides the structure and content of web pages, while CSS provides the styling and visual design. Together, they enable web developers to create visually appealing and interactive websites that are accessible to users across a wide range of devices.",
             "Features": [
                 "HTML provides the structure and content of web pages.",
@@ -183,7 +194,7 @@
             "Score": 8
         },
         "JavaScript": {
-            "img": "",
+            "img": "https://i.imgur.com/paRG7sJ.png",
             "desc": "I like JavaScript because it is a versatile language that allows me to build interactive web applications and add functionality to websites. It is also widely used in server-side web development and can be used for desktop and mobile app development as well. With JavaScript, I can write code that runs directly in the browser, making it easy to create dynamic and responsive user interfaces.",
             "Features": [
                 "JavaScript is a scripting language that can be used in both the client-side and server-side of web development.",
@@ -196,7 +207,7 @@
             "Score": 8
         },
         "Java": {
-            "img": "",
+            "img": "https://i.imgur.com/LWpqVn8.png",
             "desc": "I like Java because it is a popular and powerful programming language that can be used to develop a wide range of applications, including desktop, mobile, and web applications. It is known for its portability, security, and reliability.",
             "Features": ["Java is an object-oriented language with a strong type system that makes it easy to write and maintain complex code.",        "It is platform-independent, meaning that code written on one platform can be run on any other platform that supports Java.",
             "Java is used extensively in enterprise applications, such as banking, insurance, and healthcare, due to its scalability, security, and reliability."
@@ -204,7 +215,7 @@
             "Score": 7
         },
         "React": {
-            "img": "",
+            "img": "https://i.imgur.com/9pE6EdS.png",
             "desc": "I like React because it is a powerful and flexible JavaScript library that allows me to build complex and interactive user interfaces with ease. It follows a component-based architecture that makes it easy to reuse code and separate concerns, leading to more maintainable and scalable code. With React, I can write reusable UI components that can be shared across different applications, making development faster and more efficient.",
             "Features": [
                 "React uses a virtual DOM, which makes it fast and efficient for rendering large and complex UIs.",
@@ -218,7 +229,7 @@
         
         },
         "Git/GitHub": {
-            "img": "",
+            "img": "https://i.imgur.com/qZNqvI0.png",
             "desc": "I like Git and GitHub because they are powerful and widely used tools for version control, collaboration, and project management. Git is a distributed version control system that allows me to easily track changes to my code and collaborate with others. GitHub is a web-based platform that provides hosting for Git repositories, as well as a wide range of features for project management, code review, and collaboration.",
             "Features": [
                 "Distributed version control system with support for branching, merging, and versioning.",
@@ -228,7 +239,7 @@
             "Score": 8
         },
         "JIRA/CONFLUENCE": {
-            "img": "",
+            "img": "https://i.imgur.com/iX9KnxM.png",
             "desc": "I like JIRA and Confluence because they are powerful and versatile tools that allow me to manage projects, collaborate with team members, and track progress in a streamlined and efficient way. JIRA is a project management tool that allows me to create and track tasks, issues, and bugs in a highly customizable way. Confluence, on the other hand, is a knowledge management tool that allows me to create and organize documentation, meeting notes, and other important information in a central location that can be easily accessed by team members.",
             "Features": [
                 "JIRA provides a highly customizable workflow that can be tailored to the specific needs of a project or team.",
@@ -241,7 +252,7 @@
             "Score": 8
         },
         "R Programming": {
-            "img": "",
+            "img": "https://i.imgur.com/R01g13I.png",
             "desc": "I like R programming because it is a powerful and versatile language for statistical computing, data analysis, and visualization. R has a wide range of built-in functions and packages that allow me to perform complex statistical analyses and create informative visualizations with ease. With R, I can also easily manipulate and clean data, making it an essential tool for data science and research.",
             "Features": [
                 "A wide range of built-in functions and packages for statistical computing, data analysis, and visualization.",
@@ -254,7 +265,7 @@
             "Score": 6
         },
         "Postman API": {
-            "img": "",
+            "img": "https://i.imgur.com/ndJ9xem.png",
             "desc": "I like Postman API because it is a powerful and user-friendly tool for testing and documenting APIs. With Postman, I can easily create and manage API requests, as well as automate testing and generate documentation. Additionally, Postman has a large and supportive community, with a wide range of resources and integrations.",
             "Features": [
                 "Powerful and flexible API request builder, with support for various HTTP methods, parameters, and authentication methods.",
@@ -267,6 +278,7 @@
     },
     "Work":{
         "Trulioo":{
+            "img":"https://i.imgur.com/hxMPcoD.png",
             "start": "Jan 2023",
             "end":"Currently Working",
             "type":"Internship",
@@ -280,6 +292,7 @@
         ]
         },
         "University Of Victoria":{
+            "img":"https://i.imgur.com/oyYjSFN.png",
             "start":"May 2022",
             "end":"Aug 2022",
             "type":"Internship",
@@ -292,6 +305,7 @@
             ]
         },
         "University of Victoria":{
+            "img":"https://i.imgur.com/btC47hN.png",
             "start":"May 2022",
             "end":"Aug 2022",
             "type":"Internship",
