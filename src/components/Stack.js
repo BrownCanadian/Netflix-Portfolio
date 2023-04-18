@@ -86,15 +86,11 @@ function Stack({ title , data ,mode}) {
               }
             
           </div>
-          
-          
-          
-
+   
         </div>
-        
-          
+  
         </div>
-        <ModalProject img={img} name={name} open={openModal} desc={desc} genre={genre} cast={cast}/>
+        <ModalProject img={img} name={name} open={openModal} openFunction={setModal} desc={desc} genre={genre} cast={cast}/>
         </div>);
 }
 export default Stack

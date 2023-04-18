@@ -14,7 +14,7 @@
         {
             "id":2,
             "img":"https://i.imgur.com/oCSK4Jg.png",
-            "name": "Netflix Recap - Analyzing Your Watch History",
+            "name": "Netflix Recap",
             "desc":"Netflix Recap is a data analysis project designed to help you better understand your viewing habits on the popular streaming platform. By analyzing your Netflix watch history, the project provides valuable insights such as your most watched series, your most watched genre, and how much total time you have spent watching Netflix to date.",
             "Features":[" Data analysis of your Netflix watch history to extract key insights",
             "Display of your most watched series and genre, with customizable time periods (e.g. last month, last year, all-time)",
