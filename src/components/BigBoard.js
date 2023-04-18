@@ -4,7 +4,7 @@ const BigBoard = ()=>{
     <div className="relative w-full  z-[0] text-red-300">
         <div classname="bg-blue-300">
         <img className="w-full mt-auto lg:-mt-0 lg:-top-16 " src="http://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbZth4YgrBnY48hLbpDV99ioLj38zp8R0WIjYl9nUT-09NHeI2-X65Knrq4NLPIdE0TZw14oD8x2kVu41oecJROWprV9-BWzy36L.webp?r=15e"/>
-        <div className="bg-transparent bg-gradient-to-b from-transparent via-[#141414] to-[#141414] h-64 relative -mt-56  overflow-x-hidden "></div>
+        <div className="bg-transparent bg-gradient-to-b from-transparent via-[#141414] to-[#141414] h-36 relative -mt-36  overflow-x-hidden "></div>
         <div className="bg-transparent absolute top-16 flex flex-col md:top-52 justify-left lg:top-80 lg:ml-16 ">
             <img  className="pb-2 bg-transparent w-1/3 ml-4 md:w-3/4" src="http://occ-0-321-1009.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfuoVjTlZXekqUp9KzJ4Upnwxc-tkUHdPS_IovTptHL3NsRQGk5jo1LMKIRoDlrN8F7TzP67epbEuypu25KmbTjC-WXaZQGJcl_xDHskUA-G.webp?r=9a8"/>
             <p className="text-white ml-10 my-2 text-bold font-netflix bg-transparent">View my projects that come in diffrent genres</p>

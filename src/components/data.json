@@ -4,18 +4,18 @@
         {
             "id":1,
             "img":"https://i.imgur.com/46KGroU.png",
-            "Name": "Black Jack",
-            "Desc":"A command-line blackjack game built with Python-3 that allows players to place bets, make decisions on their hands, and compete against the computer, using traditional blackjack rules and gameplay mechanics.",
+            "name": "Black Jack",
+            "desc":"A command-line blackjack game built with Python-3 that allows players to place bets, make decisions on their hands, and compete against the computer, using traditional blackjack rules and gameplay mechanics.",
             "Features":[" Standard 52-card deck"," Ability to place bets and adjust wagers","Player can hit, stand, or double down", "Dealer follows traditional blackjack rules","Game ends when either the player or dealer busts, or the player chooses to stand and the dealer finishes their turn"],
-            "Languages":["Python"],
-            "Genre":["Feel Good","Basic"],
+            "cast":["Python"],
+            "genre":["Feel Good","Basic"],
             "Score":6
         },
         {
             "id":2,
             "img":"https://i.imgur.com/oCSK4Jg.png",
-            "Name": "Netflix Recap - Analyzing Your Watch History",
-            "Desc":"Netflix Recap is a data analysis project designed to help you better understand your viewing habits on the popular streaming platform. By analyzing your Netflix watch history, the project provides valuable insights such as your most watched series, your most watched genre, and how much total time you have spent watching Netflix to date.",
+            "name": "Netflix Recap - Analyzing Your Watch History",
+            "desc":"Netflix Recap is a data analysis project designed to help you better understand your viewing habits on the popular streaming platform. By analyzing your Netflix watch history, the project provides valuable insights such as your most watched series, your most watched genre, and how much total time you have spent watching Netflix to date.",
             "Features":[" Data analysis of your Netflix watch history to extract key insights",
             "Display of your most watched series and genre, with customizable time periods (e.g. last month, last year, all-time)",
             "Calculation of the total amount of time you have spent watching Netflix to date", 
@@ -27,8 +27,8 @@
         {
             "id":3,
             "img":"https://i.imgur.com/dxmHJNd.png",
-            "Name": "Sorting Visualizer",
-            "Desc":"The Sorting Visualizer is a Python project that visualizes various sorting algorithms, providing a dynamic way to better understand how these algorithms work. The project provides a user interface to select and visualize different sorting algorithms such as bubble sort, quick sort, and merge sort, and demonstrates how the algorithms sort the elements of an array in real-time",
+            "name": "Sorting Visualizer",
+            "desc":"The Sorting Visualizer is a Python project that visualizes various sorting algorithms, providing a dynamic way to better understand how these algorithms work. The project provides a user interface to select and visualize different sorting algorithms such as bubble sort, quick sort, and merge sort, and demonstrates how the algorithms sort the elements of an array in real-time",
             "Features":["Selection of different sorting algorithms for visualization, including bubble sort, quick sort, and merge sort ",
             "Customizable array size and speed of visualization",
             "Real-time visualization of the sorting algorithm as it sorts the array elements", 
@@ -40,8 +40,8 @@
         {
             "id":4,
             "img":"https://i.imgur.com/h7iJdpQ.png",
-            "Name": "Top Crypto Finder",
-            "Desc":"The Top Crypto Finder is a Python project that uses web scraping techniques to find and display the top 10 cryptocurrencies in the market. The project pulls data from various cryptocurrency exchange websites, and displays key information such as the current price, market capitalization",
+            "name": "Top Crypto Finder",
+            "desc":"The Top Crypto Finder is a Python project that uses web scraping techniques to find and display the top 10 cryptocurrencies in the market. The project pulls data from various cryptocurrency exchange websites, and displays key information such as the current price, market capitalization",
             "Features":["Web scraping of data from multiple cryptocurrency exchange websites to determine the top 10 cryptocurrencies",
             "Ability to sort the coins based on various criteria, such as price, market capitalization, or trading volume"
             ],
@@ -52,8 +52,8 @@
         {
             "id":5,
             "img":"https://i.imgur.com/qdXuph1.png",
-            "Name": "Password Checker",
-            "Desc":"The Password Checker is a Python project that checks the security of passwords by determining whether they have ever been a part of a data breach.",
+            "name": "Password Checker",
+            "desc":"The Password Checker is a Python project that checks the security of passwords by determining whether they have ever been a part of a data breach.",
             "Features":["Checks if the password has ever been a part of a data breach by comparing it against known lists of compromised passwords",
             "Provides information on the severity and frequency of past data breaches, and whether the password has been found in any of them",
             "Option to generate a random, secure password that is unlikely to be compromised"
@@ -65,8 +65,8 @@
         {
             "id":6,
             "img":"https://i.imgur.com/5id04v0.png",
-            "Name": "TypoSpeedChecker",
-            "Desc":"The Typing Speed Tester is a Python project that measures your typing speed by recording the number of words you can type in a minute. The project provides a selection of different texts to type, ranging from easy to difficult, and displays the results of each test, including the number of words typed, the time taken, and the words per minute (WPM) score.",
+            "name": "TypoSpeedChecker",
+            "desc":"The Typing Speed Tester is a Python project that measures your typing speed by recording the number of words you can type in a minute. The project provides a selection of different texts to type, ranging from easy to difficult, and displays the results of each test, including the number of words typed, the time taken, and the words per minute (WPM) score.",
             "Features":["Records the number of words typed, the time taken, and the WPM score",
             "Option to practice and improve your typing speed", 
             "User-friendly interface for entering and displaying results"],
@@ -77,8 +77,8 @@
         {
             "id":7,
             "img":"https://i.imgur.com/ZIGgFtB.png",
-            "Name": "Clusters",
-            "Desc":"Clusters is a web socialzing app created with Firebase, React JS, CSS, and Bootstrap that connects university students living on campus. The app includes a chat room with options for inter-floor or inter-building conversations, short video sharing similar to TikTok, an events page for hosting events, and a Q&A forum.",
+            "name": "Clusters",
+            "desc":"Clusters is a web socialzing app created with Firebase, React JS, CSS, and Bootstrap that connects university students living on campus. The app includes a chat room with options for inter-floor or inter-building conversations, short video sharing similar to TikTok, an events page for hosting events, and a Q&A forum.",
             "Features":["Chat room with options for inter-floor or inter-building conversations",
             "Short video sharing feature similar to TikTok",
             "Events page for hosting events and keeping track of attendees", 
@@ -90,8 +90,8 @@
         {
             "id":8,
             "img":"https://i.imgur.com/v2f0zJu.png",
-            "Name": "LongDistanceRoom",
-            "Desc":" Long Distance Relationship Helper is a web-based application designed to help couples in long distance relationships stay connected and have fun together. The app features a private chat system for just the two of you, a random romantic gif generator, a movie suggestion tool, and a tracker of the days you've been in a relationship. Additionally, the app includes a random date idea generator to help spark new ideas for virtual dates.",
+            "name": "LongDistanceRoom",
+            "desc":" Long Distance Relationship Helper is a web-based application designed to help couples in long distance relationships stay connected and have fun together. The app features a private chat system for just the two of you, a random romantic gif generator, a movie suggestion tool, and a tracker of the days you've been in a relationship. Additionally, the app includes a random date idea generator to help spark new ideas for virtual dates.",
             "Features":["Private chat system for just you and your partner",
             "Random romantic gif generator to send to your partner",
             "Random movie generator to suggest a movie to watch together", 
@@ -103,8 +103,8 @@
         {
             "id":9,
             "img":"https://i.imgur.com/uadxHXP.png",
-            "Name": "Crypto Tracker",
-            "Desc":"Crypto Tracker is a web application that allows users to track the performance of their favorite cryptocurrencies. Users can create an account and select up to three coins that they want to monitor. The application uses chart.js to display historical price data for the selected coins, allowing users to make informed decisions about buying, selling, or holding their investments.",
+            "name": "Crypto Tracker",
+            "desc":"Crypto Tracker is a web application that allows users to track the performance of their favorite cryptocurrencies. Users can create an account and select up to three coins that they want to monitor. The application uses chart.js to display historical price data for the selected coins, allowing users to make informed decisions about buying, selling, or holding their investments.",
             "Features":["User authentication and password recovery using Firebase Authentication",
             "Display of historical price data using chart.js",
             "Ability to select and track up to three cryptocurrencies", 
@@ -116,8 +116,8 @@
         {
             "id":10,
             "img":"https://i.imgur.com/S19Cmh6.png",
-            "Name": "Dinosaur Google Game Player",
-            "Desc":"Dinosaur Google Game Auto-Player is an image detection program built with Python that enables the dinosaur to run indefinitely in the popular offline Google Chrome game. The program uses the PIL module to detect obstacles and the PYTAUTOGUI module to automate key controls to make the dinosaur jump or duck to avoid obstacles.",
+            "name": "Dinosaur Google Game Player",
+            "desc":"Dinosaur Google Game Auto-Player is an image detection program built with Python that enables the dinosaur to run indefinitely in the popular offline Google Chrome game. The program uses the PIL module to detect obstacles and the PYTAUTOGUI module to automate key controls to make the dinosaur jump or duck to avoid obstacles.",
             "Features":["Automatically plays the Dinosaur Google Game indefinitely",
             "Uses image detection to identify obstacles and react accordingly",
             "Utilizes the PYTAUTOGUI module to automate key controls for the dinosaur to jump or duck"
@@ -129,8 +129,8 @@
         {
             "id":11,
             "img":"https://i.imgur.com/izLIoVL.png",
-            "Name": "HireLink: A Job Portal",
-            "Desc":"The React Job Portal is a web-based platform designed specifically for recruiters to connect with job seekers. The portal allows recruiters to post job listings, filter and search resumes, and communicate with potential candidates through a messaging system. The platform is built using React, TypeScript, and Tailwind CSS, which provide a seamless user experience and intuitive interface for recruiters.",
+            "name": "HireLink: A Job Portal",
+            "desc":"The React Job Portal is a web-based platform designed specifically for recruiters to connect with job seekers. The portal allows recruiters to post job listings, filter and search resumes, and communicate with potential candidates through a messaging system. The platform is built using React, TypeScript, and Tailwind CSS, which provide a seamless user experience and intuitive interface for recruiters.",
             "Features":["Recruiters can sign up and create a profile to post job listings",
             "Job seekers can create profiles and upload resumes to be viewed by recruiters",
             "Advanced search features allow recruiters to search for candidates by location, experience, and skills", 
@@ -142,8 +142,8 @@
         }
 
     ],
-    "TechnicalSkills":{
-        "Python":{
+    "TechnicalSkills":[
+        {       "name":"Python",
                 "img":"https://i.imgur.com/6CD73oc.png",
                 "desc":"I like Python because it allows me to quickly and easily write code to solve complex problems. Additionally, Python has a large and active community that provides resources and support, making it a great language for both beginners and experienced programmers.",
                 "Features":[
@@ -154,7 +154,8 @@
                 ],
                 "Score":9
         },
-        "PANDAS":{
+       {
+            "name":"Pandas",
             "img":"https://i.imgur.com/r4aQzCC.png",
             "desc":"I like Pandas because it is a powerful and user-friendly tool for working with structured data in Python. It provides efficient and flexible data structures, as well as a wide range of functions for data manipulation, cleaning, and analysis. With Pandas, I can quickly and easily perform complex data operations, making it an essential library for data science and analytics.",
             "Features":[
@@ -163,7 +164,7 @@
                 "Powerful grouping and aggregation functions for summarizing and analyzing data."
             ]
         },
-        "Tableau": {
+        {   "name":"Tableau",
             "img": "https://i.imgur.com/bkzVRy0.png",
             "desc": "I like Tableau because it is a powerful data visualization tool that enables users to create interactive and visually appealing dashboards and reports. It has a wide range of data connectors, making it easy to connect to various data sources, and provides a drag-and-drop interface for creating charts and graphs.",
             "Features": [
@@ -173,7 +174,7 @@
             ],
             "Score": 8
         },
-        "MATLAB": {
+        {   "name":"MATLAB",
             "img": "https://i.imgur.com/XM8Wwok.png",
             "desc": "I like MATLAB because it is a powerful and widely-used tool for numerical computing and data analysis. It provides a wide range of functions and tools for working with matrices, plotting data, and analyzing complex systems. Additionally, MATLAB has a large and active community that provides resources and support, making it a great tool for both academic and industrial use.",
             "Features": [
@@ -183,7 +184,7 @@
             ],
             "Score": 7
         },
-        "HTML+CSS": {
+        {   "name":"HTML+CSS",
             "img": "https://i.imgur.com/MTAHBsI.png",
             "desc": "I like HTML and CSS because they are the fundamental building blocks of the web. HTML provides the structure and content of web pages, while CSS provides the styling and visual design. Together, they enable web developers to create visually appealing and interactive websites that are accessible to users across a wide range of devices.",
             "Features": [
@@ -193,7 +194,7 @@
             ],
             "Score": 8
         },
-        "JavaScript": {
+        {   "name":"JavaScript",
             "img": "https://i.imgur.com/paRG7sJ.png",
             "desc": "I like JavaScript because it is a versatile language that allows me to build interactive web applications and add functionality to websites. It is also widely used in server-side web development and can be used for desktop and mobile app development as well. With JavaScript, I can write code that runs directly in the browser, making it easy to create dynamic and responsive user interfaces.",
             "Features": [
@@ -206,7 +207,7 @@
             ],
             "Score": 8
         },
-        "Java": {
+        {   "name":"Java",
             "img": "https://i.imgur.com/LWpqVn8.png",
             "desc": "I like Java because it is a popular and powerful programming language that can be used to develop a wide range of applications, including desktop, mobile, and web applications. It is known for its portability, security, and reliability.",
             "Features": ["Java is an object-oriented language with a strong type system that makes it easy to write and maintain complex code.",        "It is platform-independent, meaning that code written on one platform can be run on any other platform that supports Java.",
@@ -214,7 +215,7 @@
           ],
             "Score": 7
         },
-        "React": {
+        {   "name":"React",
             "img": "https://i.imgur.com/9pE6EdS.png",
             "desc": "I like React because it is a powerful and flexible JavaScript library that allows me to build complex and interactive user interfaces with ease. It follows a component-based architecture that makes it easy to reuse code and separate concerns, leading to more maintainable and scalable code. With React, I can write reusable UI components that can be shared across different applications, making development faster and more efficient.",
             "Features": [
@@ -228,7 +229,7 @@
             "Score": 9
         
         },
-        "Git/GitHub": {
+        {   "name":"Git/GitHub",
             "img": "https://i.imgur.com/qZNqvI0.png",
             "desc": "I like Git and GitHub because they are powerful and widely used tools for version control, collaboration, and project management. Git is a distributed version control system that allows me to easily track changes to my code and collaborate with others. GitHub is a web-based platform that provides hosting for Git repositories, as well as a wide range of features for project management, code review, and collaboration.",
             "Features": [
@@ -238,7 +239,7 @@
             ],
             "Score": 8
         },
-        "JIRA/CONFLUENCE": {
+        {   "name":"JIRA/CONFLUENCE",
             "img": "https://i.imgur.com/iX9KnxM.png",
             "desc": "I like JIRA and Confluence because they are powerful and versatile tools that allow me to manage projects, collaborate with team members, and track progress in a streamlined and efficient way. JIRA is a project management tool that allows me to create and track tasks, issues, and bugs in a highly customizable way. Confluence, on the other hand, is a knowledge management tool that allows me to create and organize documentation, meeting notes, and other important information in a central location that can be easily accessed by team members.",
             "Features": [
@@ -251,7 +252,7 @@
             ],
             "Score": 8
         },
-        "R Programming": {
+        {   "name":"R Programming",
             "img": "https://i.imgur.com/R01g13I.png",
             "desc": "I like R programming because it is a powerful and versatile language for statistical computing, data analysis, and visualization. R has a wide range of built-in functions and packages that allow me to perform complex statistical analyses and create informative visualizations with ease. With R, I can also easily manipulate and clean data, making it an essential tool for data science and research.",
             "Features": [
@@ -264,7 +265,7 @@
             ],
             "Score": 6
         },
-        "Postman API": {
+        {   "name":"Postman API",
             "img": "https://i.imgur.com/ndJ9xem.png",
             "desc": "I like Postman API because it is a powerful and user-friendly tool for testing and documenting APIs. With Postman, I can easily create and manage API requests, as well as automate testing and generate documentation. Additionally, Postman has a large and supportive community, with a wide range of resources and integrations.",
             "Features": [
@@ -275,9 +276,9 @@
             "Score": 6
         }
 
-    },
-    "Work":{
-        "Trulioo":{
+    ],
+    "Work":[
+        {   "name":"Trulioo",
             "img":"https://i.imgur.com/hxMPcoD.png",
             "start": "Jan 2023",
             "end":"Currently Working",
@@ -291,7 +292,7 @@
             "Work closely with developers and product owners to ensure that defects are identified, tracked, and resolved in a timely manner."
         ]
         },
-        "University Of Victoria":{
+        {   "name":"University Of Victoria",
             "img":"https://i.imgur.com/oyYjSFN.png",
             "start":"May 2022",
             "end":"Aug 2022",
@@ -304,7 +305,7 @@
                 "Recording and storing live movement onto a 3d figure"
             ]
         },
-        "University of Victoria":{
+        {   "name":"University Of Victoria",
             "img":"https://i.imgur.com/btC47hN.png",
             "start":"May 2022",
             "end":"Aug 2022",
@@ -317,55 +318,55 @@
                 "Recording and storing live movement onto a 3d figure"
             ]
         }
-    },
-    "Courses":{
-        "CSC-226":{
+    ],
+    "Courses":[
+        {   "code":"CSC-226",
             "name":"Datastructures and Algorithms - 2 ",
             "desc": " Advanced techniques for design, analysis, and implementation of algorithms and data structures.Algorithmic design paradigms: greedy, divide-and-conquer, dynamic programming, randomization.Advanced Analysis techniques: amortization and expected running time.Advanced data structures: random hash families, disjoint sets.Advanced graph algorithms: network flow, connectivity, minimum spanning trees, shortest paths. Mathematical tools: graphs and digraphs, graph properties, planar graphs, networks.String search. Data compression "
         },
-        "CSC-230":{
+        {   "code":"CSC-230",
             "name":"Introduction to Computer Architecture",
             "desc":
                 "the design of processors,the structure and operation of memory and virtual memory, cache, storage,pipelining + system integration + peripherals.Execution of software via assembly language"
             
         },
-        "SENG-265":{
+        {   "code":"SENG-265",
             "name":"",
             "desc":"Systematic methods for designing, coding, testing and documenting medium-sized programs. Tools and techniques to promote programming productivity and software quality. Topics include specifications, code review and inspection techniques, testing and debugging methods and tools, file system navigation, scripting languages, software tools, environments, instrumenting and profiling and the fundamentals of software configuration management."
         },
-        "MATH-211":{
+        {   "code":"MATH-211",
             "name":"Matrix Algebra",
             "desc":"Euclidean vector spaces; systems of linear equations, solution of linear systems by Gaussian elimination, matrices and matrix algebra; brief introduction to abstract vector space; determinants; eigenvectors; orthogonality and applications."
         },
-        "STAT-260":{
+        {   "code":"STAT-260",
             "name":"Introduction to Probability and Statistics",
-            "desc":"Descriptive statistics; elementary probability theory; random variables, discrete and continuous probability distributions, expectation, joint, marginal and conditional distributions; linear functions of random variables; random sampling and sampling distributions; point and interval estimation; classical hypothesis testing and significance testing. The mathematical foundations of statistical inference are introduced and illustrated with examples from a variety of disciplines."
+            "desc":"descriptive statistics; elementary probability theory; random variables, discrete and continuous probability distributions, expectation, joint, marginal and conditional distributions; linear functions of random variables; random sampling and sampling distributions; point and interval estimation; classical hypothesis testing and significance testing. The mathematical foundations of statistical inference are introduced and illustrated with examples from a variety of disciplines."
         },
-        "CSC-130":{
+        {   "code":"CSC-130",
             "name":"World Wide Web and Mobile Applications",
             "desc":"An introduction to the Internet, the World Wide Web (WWW) and mobile communications technologies. Topics include: HTML; web-page design tools; development of simple mobile applications. Additional topics selected from: location-aware e-commerce; multimedia chat services; mobile social networking; software development for smartphones and tablets. Emphasis is on relating Internet technologies to the role they play in enabling mobile computing."
         },
-        "MATH-202":{
+        {   "code":"MATH-202",
             "name":"Intermediate Calculus for CSC",
             "desc":"Vectors, curves, and surfaces in space; partial differentiation; directional derivatives and the gradient vector; Taylor's theorem for a function of two variables; introduction to differential equations."
         },
-        "CSC-115":{
+        {   "code":"CSC-115",
             "name":"Fundamental Programing:II - JAVA",
             "desc":"Techniques, methods, and tools for systematic development and maintenance of software systems and documentation; basic algorithms and data structures; and fundamental concepts of object-oriented programming. Topics include control and data abstraction, modularization, abstract data types, layers of abstraction, information hiding, separation of concerns, type checking, program design, separate compilation, software libraries, techniques for the development of high-quality software components, program understanding."
 
         },
-        "CSC-110":{
+        {   "code":"CSC-110",
             "name":"Fundamentals of Programming I",
             "desc":"Introduction to designing, implementing, and understanding computer programs using an object-oriented programming language. Topics include an introduction to computing and problem solving, selection and iteration, arrays and collections, objects and classes, top-down design and incremental development."
         },
-    "MATH-122":{
-        "name":"Discrete Math - Logic and Foundations",
-        "desc":"Logic and quantifiers, basic set theory, mathematical induction and recursive definitions, divide and conquer recurrence relations, properties of integers, counting, functions and relations, countable and uncountable sets, asymptotic notation"   
-    },
-    "MATH-101":{
+        {   "code":"CSC-110",
+            "name":"Discrete Math - Logic and Foundations",
+            "desc":"Logic and quantifiers, basic set theory, mathematical induction and recursive definitions, divide and conquer recurrence relations, properties of integers, counting, functions and relations, countable and uncountable sets, asymptotic notation"   
+        },
+        {   "code":"MATH-110",
         "name":"Calculus II",
         "desc":"Volumes; arc length and surface area; techniques of integration with applications; polar coordinates and area; Taylor's formula; improper integrals; series and tests for convergence; power series and Taylor series; complex numbers."
-    }
-    },
+        }
+],
     "About":{}
 }

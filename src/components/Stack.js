@@ -1,12 +1,32 @@
 import React, { useState, useEffect, useRef } from 'react';
+import ModalProject from './ModalProject';
 
-function Stack({ title , data}) {
+function Stack({ title , data ,mode}) {
   console.log(data);
   const [scrollX, setScrollX] = useState(0);
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(true);
   const listRef = useRef();
 
+  const[openModal,setModal] = useState(false);
+  const [name, setName] = useState('');
+  const [desc, setDesc] = useState('');
+  const [genre, setGenre] = useState([]);
+  const [cast, setCast] = useState([]);
+  const [img, setImg] = useState('');
+  
+
+  const modaldet =(project) =>{
+    setName(project.name);
+    setDesc(project.desc);
+    setGenre(project.Genre);
+    setImg(project.img);
+    setCast(project.Languages);
+    setModal(true);
+    mode=true;
+    
+  }
+  
   useEffect(() => {
     const handleResize = () => {
       setShowRightButton(listRef.current.clientWidth < listRef.current.scrollWidth);
@@ -39,7 +59,7 @@ function Stack({ title , data}) {
 
   return (
     <div className="-mb-12">
-      <div className="pl-12 mb-16">
+      <div className=" md:pl-6 mb-16 lg:pl-12">
         <p className="bg-transparent text-white font-netflix text-xl lg:text-3xl">{title}</p>
         <div className="relative w-full overflow-hidden">
           {showLeftButton && (
@@ -60,23 +80,21 @@ function Stack({ title , data}) {
               </button>
             </div>
           )}
-          <div className="flex w-full" style={{ transform: `translateX(${scrollX}px)` }} ref={listRef}>
-            {
-              data.map(project => <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100 hover:z-30" src={project.img}/> )
-            }
-          {/* <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100 hover:z-30" src="https://i.imgur.com/46KGroU.png"/>
-          <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100 hover:z-30" src="https://i.imgur.com/oCSK4Jg.png"/>
-          <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100 hover:z-30" src="http://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUa4R0o7I7wejEoYxlLPr0c7_LXGX1m7hglOFvlH_L16lfm63BHTZMqqpLoYgWV7FQ_d-RBTViiZNwa8koRhReMW6MoKkRykojjtc_Jyrt9Kh0DZdNojiNJ1LJQM-XQ2CC2gJ4pYTSgQ5SylFdDSrHYYXpl4P_od65IzuQjKpPlCh8-_LGyJ770l1_0xbtz301Cn9JQiVDjJCg9fzdclKECEShSY0JAXgVgQegsX7KZCo2RMYk0uc7BeIOw40xTPfZPciio7YRnPUFYD_nL7Swz2h3qrZx3vY95oESC5otZr2GNlBciEhax_4rRb9pe0KZTjh-TeDG7wDI59q5SwjK-pq9UuwHXY92E7fUPsCSNVrEFlfhHmGLzU8HTCaN0XpFg5ESiIFOv4--xU9DHvH8jO8Tzl__3f1dexGEftqmwM.webp?r=6d1"/>
-          <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100 hover:z-30" src="http://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSAFNgYUFUJoOwEHWX1wC9oypG2FAIqLW_4HaNMI9d58UbOMLU0Ux7vzuTG6Pos2cdrWQlnnm9RLw4d-Nnwg9sGdRhqAWjmqx-o.webp?r=72f"/>
-          <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100 hover:z-30" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>
-          <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100 hover:z-30" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>
-          <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100 hover:z-30" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>
-          <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100 hover:z-30" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/> */}
+            <div className="flex w-full sm:-ml-16 lg:-ml-4" style={{ transform: `translateX(${scrollX}px)` }} ref={listRef}>
+              {
+                data.map(project => <img onClick= {(() =>{ modaldet(project)})} className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-20 hover:scale-100 hover:z-30" src={project.img}/> )
+              }
+            
           </div>
-          <p>{data[0].Name}</p>
+          
+          
+          
 
         </div>
+        
+          
         </div>
+        <ModalProject img={img} name={name} open={openModal} desc={desc} genre={genre} cast={cast}/>
         </div>);
 }
 export default Stack
