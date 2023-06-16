@@ -58,7 +58,8 @@ function Stack({ title , data ,mode}) {
   };
 
   return (
-    <div className="-mb-12">
+    <div  className="relative -mb-0">
+    <div className="-mb-0">
       <div className=" md:pl-6 mb-16 lg:pl-12">
         <p className="bg-transparent text-white font-netflix text-xl lg:text-3xl">{title}</p>
         <div className="relative w-full overflow-hidden">
@@ -82,15 +83,13 @@ function Stack({ title , data ,mode}) {
           )}
             <div className="flex w-full sm:-ml-16 lg:-ml-4" style={{ transform: `translateX(${scrollX}px)` }} ref={listRef}>
               {
-                data.map(project => <img onClick= {(() =>{ modaldet(project)})} className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-20 hover:scale-100 hover:z-30" src={project.img}/> )
-              }
-            
+                data.map(project => <img onClick= {(() =>{ modaldet(project)})} className=" rounded-lg scale-50 -mr-4 lg:scale-75 lg:-mr-16 hover:scale-100 hover:z-30" src={project.img}/> )
+              }  
           </div>
-   
-        </div>
-  
+        </div> 
         </div>
         <ModalProject img={img} name={name} open={openModal} openFunction={setModal} desc={desc} genre={genre} cast={cast}/>
+        </div>
         </div>);
 }
 export default Stack

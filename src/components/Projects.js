@@ -22,10 +22,10 @@ function App() {
     
    
   
-    <Stack title="Placed Worked At" data={Work} bool={false} />
+    <Stack title="Placed Worked At" mode={false} data={Work} bool={false} />
     <Stack title="Projects"  mode={false} data={projects} bool={false}/>
-    <Stack title="Technical Skills"  data={TechnicalSkills} bool={false}/>
-    <Stack title="Relevant Courses"  data={Courses} bool={false}/> 
+    <Stack title="Technical Skills"  mode={false}  data={TechnicalSkills} bool={false}/>
+    <Stack title="Relevant Courses"  mode={false} data={Courses} bool={false}/> 
      
     </>);
 }

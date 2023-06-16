@@ -7,6 +7,7 @@ module.exports = {
         'netflix':['NetflixSans']
       },
       spacing: {
+        '100': '50vh',
         '108': '72vh',
       },
       zIndex: {

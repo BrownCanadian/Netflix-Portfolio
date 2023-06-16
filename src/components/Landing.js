@@ -28,22 +28,22 @@ function App() {
 
           <li className="px-4" >
             <div className="flex flex-col justify-center">
-              <a>
+            <Link to="https://leetcode.com/Rushaan_Chawla/">
                 <div>
                   <img  className="rounded-lg w-5/6 justify-center items-center mx-auto inner-border-2 inner-border-white  hover:border-2 border-white" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABYSw2XUJOe-RXGqlMhzAK2kb3m8jiiuICaICOYRemQXvfBcEmoaG0XMebWDsKrQ4fhsAYwzopxK6Cm5l5w2F9iMzCVqZuapW7A.png?"></img>
                 </div>
-              </a>
+              </Link>
               <div className="text-[#808080] text-center py-6  hover:text-[#ffffff]">GitHub</div>
             </div>
           </li>
 
           <li className="px-4">
             <div className="flex flex-col justify-center">
-              <a>
+            <Link to="https://leetcode.com/Rushaan_Chawla/">
                 <div>
                   <img  className="rounded-lg w-5/6 justify-center items-center mx-auto hover:border-2 border-white" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABcD0ZrsIMMPdVENlhcMLhAEQsGSplhivXwxPolt5h1wP1bquIL83x4fkrS6we4cwNWTe1nn7exw7GDMLe-72PiRcoMIBjdjmmA.png?r=b39"></img>
                 </div>
-              </a>
+                </Link>
               <div className="text-[#808080] text-center py-6 hover:text-[#ffffff]">Linkedn</div>
             </div>
           </li>
