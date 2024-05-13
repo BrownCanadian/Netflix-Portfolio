@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
 
@@ -28,8 +28,7 @@
       "jest": true,
       "es6": true,
       "commonjs": true,
-      "es2021": true,
-      "CI": false
+      "es2021": true
     },
     "extends": [
       "react-app",
