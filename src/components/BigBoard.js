@@ -3,13 +3,13 @@ const BigBoard = () => {
     <div className=" relative  w-full ">
       <div className="relative w-full  z-[0] text-red-300">
         <div classname="bg-blue-300">
-          <img
+          <img alt=""
             className="w-full mt-auto lg:-mt-0 lg:-top-16 "
             src="http://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbZth4YgrBnY48hLbpDV99ioLj38zp8R0WIjYl9nUT-09NHeI2-X65Knrq4NLPIdE0TZw14oD8x2kVu41oecJROWprV9-BWzy36L.webp?r=15e"
           />
           <div className="bg-transparent bg-gradient-to-b from-transparent via-[#141414] to-[#141414] h-36 relative -mt-36  overflow-x-hidden "></div>
           <div className="bg-transparent absolute top-16 flex flex-col md:top-24 justify-left lg:top-80 lg:ml-16 xl:top-96 2xl:top-100">
-            <img
+            <img alt=""
               className="pb-2 bg-transparent w-1/3 ml-4 md:w-1/2"
               src="http://occ-0-321-1009.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfuoVjTlZXekqUp9KzJ4Upnwxc-tkUHdPS_IovTptHL3NsRQGk5jo1LMKIRoDlrN8F7TzP67epbEuypu25KmbTjC-WXaZQGJcl_xDHskUA-G.webp?r=9a8"
             />
@@ -19,7 +19,7 @@ const BigBoard = () => {
 
             <div className=" bg-transparent py-2 ml-4 flex flex-row">
               <button className="flex bg-white text-black font-netflix  px-6 py-2 rounded-md mx-6 lg:px-8 hover:scale-110">
-                <img
+                <img alt=""
                   className="bg-transparent pr-2"
                   src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzcz0iSGF3a2lucy1JY29uIEhhd2tpbnMtSWNvbi1TdGFuZGFyZCIgZGF0YS1uYW1lPSJQbGF5Ij48cGF0aCBkPSJNNCAyLjY5MTI3QzQgMS45MzA2NyA0LjgxNTQ3IDEuNDQ4NTEgNS40ODE5MiAxLjgxNTA2TDIyLjQwNjkgMTEuMTIzOEMyMy4wOTc3IDExLjUwMzcgMjMuMDk3NyAxMi40OTYzIDIyLjQwNjkgMTIuODc2Mkw1LjQ4MTkyIDIyLjE4NDlDNC44MTU0NiAyMi41NTE1IDQgMjIuMDY5MyA0IDIxLjMwODdWMi42OTEyN1oiIGZpbGw9ImN1cnJlbnRDb2xvciIvPjwvc3ZnPg=="
                 />

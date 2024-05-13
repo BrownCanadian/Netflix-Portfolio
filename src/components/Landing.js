@@ -19,7 +19,7 @@ function App() {
             <div className="flex flex-col justify-center cursor-pointer">
               <Link to="/projects">
                 <div >
-                  <img className="rounded-lg w-5/6 justify-center items-center mx-auto hover:border-2 border-white" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABQF7SR467QFM7baRi8ZVxwtPaStoMd9-KZ8qZqba8Tuu8x9OWqkYvzubJwrfBQmJp0spenD2JvuyNz7H1OuY3zhTr6_hZokHwQ.png?r=6a6"></img>
+                  <img alt="" className="rounded-lg w-5/6 justify-center items-center mx-auto hover:border-2 border-white" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABQF7SR467QFM7baRi8ZVxwtPaStoMd9-KZ8qZqba8Tuu8x9OWqkYvzubJwrfBQmJp0spenD2JvuyNz7H1OuY3zhTr6_hZokHwQ.png?r=6a6"></img>
                 </div>
               </Link>
               <div className="text-[#808080] text-center py-6  hover:text-[#ffffff]">Portfolio</div>
@@ -30,7 +30,7 @@ function App() {
             <div className="flex flex-col justify-center">
             <Link to="https://leetcode.com/Rushaan_Chawla/">
                 <div>
-                  <img  className="rounded-lg w-5/6 justify-center items-center mx-auto inner-border-2 inner-border-white  hover:border-2 border-white" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABYSw2XUJOe-RXGqlMhzAK2kb3m8jiiuICaICOYRemQXvfBcEmoaG0XMebWDsKrQ4fhsAYwzopxK6Cm5l5w2F9iMzCVqZuapW7A.png?"></img>
+                  <img alt=""  className="rounded-lg w-5/6 justify-center items-center mx-auto inner-border-2 inner-border-white  hover:border-2 border-white" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABYSw2XUJOe-RXGqlMhzAK2kb3m8jiiuICaICOYRemQXvfBcEmoaG0XMebWDsKrQ4fhsAYwzopxK6Cm5l5w2F9iMzCVqZuapW7A.png?"></img>
                 </div>
               </Link>
               <div className="text-[#808080] text-center py-6  hover:text-[#ffffff]">GitHub</div>
@@ -41,7 +41,7 @@ function App() {
             <div className="flex flex-col justify-center">
             <Link to="https://leetcode.com/Rushaan_Chawla/">
                 <div>
-                  <img  className="rounded-lg w-5/6 justify-center items-center mx-auto hover:border-2 border-white" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABcD0ZrsIMMPdVENlhcMLhAEQsGSplhivXwxPolt5h1wP1bquIL83x4fkrS6we4cwNWTe1nn7exw7GDMLe-72PiRcoMIBjdjmmA.png?r=b39"></img>
+                  <img alt=""  className="rounded-lg w-5/6 justify-center items-center mx-auto hover:border-2 border-white" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABcD0ZrsIMMPdVENlhcMLhAEQsGSplhivXwxPolt5h1wP1bquIL83x4fkrS6we4cwNWTe1nn7exw7GDMLe-72PiRcoMIBjdjmmA.png?r=b39"></img>
                 </div>
                 </Link>
               <div className="text-[#808080] text-center py-6 hover:text-[#ffffff]">Linkedn</div>

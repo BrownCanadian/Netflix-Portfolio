@@ -83,7 +83,7 @@ function Stack({ title , data ,mode}) {
           )}
             <div className="flex w-full sm:-ml-16 lg:-ml-4" style={{ transform: `translateX(${scrollX}px)` }} ref={listRef}>
               {
-                data.map(project => <img onClick= {(() =>{ modaldet(project)})} className=" rounded-lg scale-50 -mr-4 lg:scale-75 lg:-mr-16 hover:scale-100 hover:z-30" src={project.img}/> )
+                data.map(project => <img alt="" onClick= {(() =>{ modaldet(project)})} className=" rounded-lg scale-50 -mr-4 lg:scale-75 lg:-mr-16 hover:scale-100 hover:z-30" src={project.img}/> )
               }  
           </div>
         </div> 
@@ -137,9 +137,9 @@ export default Stack
 //             </button>
 //           </div>
 //           <div className="flex w-full" style={{ transform: `translateX(${scrollX}px)` }}>
-//             <img className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110 hover:z-30" src="ww.image.con" />
-//             <img className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110 hover:z-30" src="www.image.com" />
-//             <img className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110 hover:z-30" src="www.image.com" />
+//             <img alt="" className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110 hover:z-30" src="ww.image.con" />
+//             <img alt="" className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110 hover:z-30" src="www.image.com" />
+//             <img alt="" className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110 hover:z-30" src="www.image.com" />
 //           </div>
 //         </div>
 //       </div>
@@ -160,10 +160,10 @@ export default Stack
 //       <p className=" bg-transparent text-white font-netflix text-xl lg:text-3xl ">{title}</p>
 //     <div className="flex w-full overflow-hidden">
    
-//     <img className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110 hover:z-30 " src="image.png"/>
+//     <img alt="" className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110 hover:z-30 " src="image.png"/>
     
-//     <img className=" w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110  hover:z-30 " src="image.png"/>
-//     <img className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110   hover:z-30 " src="image.png"/>
+//     <img alt="" className=" w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110  hover:z-30 " src="image.png"/>
+//     <img alt="" className="w-2/5 my-4 py-1 rounded-xl px-2 lg:w-1/5 hover:scale-110   hover:z-30 " src="image.png"/>
     
 //     </div>
 //     </div>
@@ -174,16 +174,16 @@ export default Stack
 //       //   <div className="bg-blue-400 bg-transparent">
        
 //       //       <ul className="bg-transparent flex  -ml-20 flex-wrap md:flex-nowrap lg:ml-0 lg:overflow-x-hidden"> 
-//       //           <img className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
-//       //           <img className="rounded-lg  scale-50 lg:scale-75 -mr-32 lg:-mr-10 hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
-//       //           <img className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
-//       //            <img className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10   hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
-//       //            <img className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10   hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
-//       //            <img className="rounded-lg  scale-50 lg:scale-75  -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
-//       //            <img className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
-//       //            <img className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
-//       //            <img className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
-//       //            <img className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //           <img alt="" className=" rounded-lg scale-50 lg:scale-75  -mr-32 lg:-mr-10 hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //           <img alt="" className="rounded-lg  scale-50 lg:scale-75 -mr-32 lg:-mr-10 hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //           <img alt="" className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //            <img alt="" className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10   hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //            <img alt="" className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10   hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //            <img alt="" className="rounded-lg  scale-50 lg:scale-75  -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //            <img alt="" className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //            <img alt="" className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //            <img alt="" className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
+//       //            <img alt="" className="rounded-lg  scale-50 lg:scale-75   -mr-32 lg:-mr-10  hover:scale-100" src="https://occ-0-321-1009.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTS5cqaqImsyjCN7d8VHat8yHhs5wrlQA0gbrLyy6-CZM3J_2meJGfS4ovTPskFt0IzmT6CbIrbwUv4MXQtbcPjjm55WdVADiv8.webp?r=83d"/>  
 //       //       </ul>
 //       //   </div>
 //       //  </div>

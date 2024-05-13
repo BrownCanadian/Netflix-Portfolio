@@ -337,7 +337,7 @@
 
   "Work": [
     {
-      "name": "Junior Quality Assurance Intern ",
+      "name": "QA Intern ",
       "Genre": ["Internship"],
       "img": "https://i.imgur.com/hxMPcoD.png",
       "Languages": ["Jan'23 - Current"],
@@ -345,16 +345,14 @@
       "type": "Internship",
       "role": "Junior Quality Assurance Intern ",
       "desc": [
-        "Collaborate with cross-functional teams to develop and implement test plans, test cases, and test scripts for various web and mobile applications.",
-        "Utilize JSON and Postman to create and execute test cases, verify expected results, and report issues in a timely manner.",
-        "Utilize company-specific software and platforms such as JIRA, TestRail, CI/CD to track defects, document test results, and automate testing processes",
-        "Create and maintain test data sets, test environments, and test scenarios to support testing efforts.",
-        "Collaborate with the QA team to develop and maintain a comprehensive test suite and ensure that the product is thoroughly tested before release",
-        "Work closely with developers and product owners to ensure that defects are identified, tracked, and resolved in a timely manner."
+        "Collaborate with teams to design test plans and scripts for web and mobile applications",
+        "Utilize tools like JSON, Postman, JIRA, TestRail, and CI/CD for defect tracking and test automation.",
+        "Develop comprehensive test suites with QA to ensure thorough product testing.",
+        "Work closely with developers and product owners to efficiently resolve defects."
       ]
     },
     {
-      "name": "Virtual Reality Research Intern",
+      "name": "VR Research Intern",
       "img": "https://i.imgur.com/oyYjSFN.png",
       "Languages": ["May'22 - Aug'22"],
 
@@ -368,7 +366,7 @@
       ]
     },
     {
-      "name": "Word Press Developer",
+      "name": "Web Developer",
       "img": "https://i.imgur.com/btC47hN.png",
       "Languages": ["Nov'21 - Apr'22"],
 
@@ -376,10 +374,7 @@
 
       "role": "Word Press Developer",
       "desc": [
-        "Managed to crack various rounds of interview to secure the on-roll part time job in University of Victoria, with the strong knowledge of academics along with interpersonal & out of box thinking solutions.",
-        "Interface in delivering quality commercial websites meeting the coding standards & cross browser compatibilities. I do write intermediate testing reports indicating the status of testing to decide corrective actions and interventions. ",
-        "Achieved success with creating and updating re-usable code libraries to streamline the Word Press development cycle. I have hands on experience to create & update the codes.",
-        "Recording and storing live movement onto a 3d figure"
+        "Secured a part-time job at the University of Victoria through strong academic knowledge and innovative thinking. Delivers commercial websites that meet coding standards and ensures cross-browser compatibility. Streamlined WordPress development with reusable code libraries. Experienced in recording and storing live movements onto 3D figures."
       ]
     }
   ],
