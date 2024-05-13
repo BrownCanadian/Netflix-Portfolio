@@ -6,7 +6,7 @@ const ModalProject = ({open, img , genre , cast , desc, name, openFunction})=>{
         <div onClick={()=>{openFunction(false)}} className="rounded-3xl w-screen h-screen bg-transparent backdrop-blur-sm  fixed top-0 z-100 flex flex-col justify-center">
             <div onClick={(e)=>e.stopPropagation()} className="sm:hideen md:block mx-auto md-w-2/3 lg:w-2/5 xl:w-2/5 rounded-3xl flex flex-col">
                 <div className="rounded-t-lg w-full flex flex-col">
-                    <img alt=""  src={img} className="rounded-t-lg" alt="Banner"/>
+                    <img src={img} className="rounded-t-lg" alt="Banner"/>
                    
                     <div className="flex h-1/2">
                         {/* <h1 className=" md:mt-56 lg:mt-56 xl:mt-0  text-white font-netflix text-5xl ml-8 bg-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] z-20">{name}</h1>
