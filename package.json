@@ -21,6 +21,15 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "jest": true,
+      "es6": true,
+      "commonjs": true,
+      "es2021": true,
+      "CI": false
+    },
     "extends": [
       "react-app",
       "react-app/jest"
